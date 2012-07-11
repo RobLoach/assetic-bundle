@@ -3,11 +3,11 @@
     "description": "Sculpin bundle to add support for Assetic.",
     "license": "MIT",
     "require": {
-        "sculpin/sculpin": "*",
         "kriswallsmith/assetic": "*"
     },
     "autoload": {
         "psr-0": { "Sculpin\\Bundle\\AsseticBundle": "" }
     },
-    "target-dir": "Sculpin/Bundle/AsseticBundle"
+    "target-dir": "Sculpin/Bundle/AsseticBundle",
+    "minimum-stability": "dev"
 }
